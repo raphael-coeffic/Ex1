@@ -2,6 +2,7 @@ CC = gcc
 FLAGS = -Wall -fPIC
 AR = ar
 OBJECTS_MAIN = main.o
+LIBS = -L.
 
 all: loops loopd recursives recursived mains maindloop maindrec
 
