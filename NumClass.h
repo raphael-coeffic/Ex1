@@ -1,15 +1,15 @@
-// #ifndef _MYLIB_H_
-// #define _MYLIB_H_
+#ifndef _MYLIB_H_
+#define _MYLIB_H_
 
-//     #define TRUE 1
-//     #define FALSE 0
+    #define TRUE 1
+    #define FALSE 0
 
-//     int isArmstrong (int x);
+    int isArmstrong (int x);
 
-//     int isPalindrome (int x);
+    int isPalindrome (int x);
 
-//     int isPrime (int x);
+    int isPrime (int x);
 
-//     int isStrong (int x);
+    int isStrong (int x);
 
-//     #endif
+    #endif
