@@ -1,5 +1,6 @@
 #include "NumClass.h"
 
+// This function execute power
 int power(int x, int y)
 {
     if (y == 0)
@@ -12,6 +13,7 @@ int power(int x, int y)
 
 }
 
+// check the num of digits of a number
 int numOfDigits(int x)
 {
     if (x <= 0)
@@ -21,6 +23,7 @@ int numOfDigits(int x)
     
 }
 
+// give us the sum of each digit power the num of digit
 int helpForArmstrong(int num, int num_of_digits, int actual_sum) 
 {
     if (num <= 0)
@@ -45,6 +48,7 @@ int isArmstrong(int x)
     return FALSE;
 }
 
+// give us the reversed number
 int inverseNum(int x, int actual_inversed)
 {
     if (x <= 0)
