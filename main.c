@@ -8,6 +8,7 @@ int main()
     scanf("%d",&a);
     scanf("%d",&b);
 
+    // Print all the Armstong numbers
     printf("The Armstrong numbers are:");
     for (int i = a; i <= b; i++)
     {
@@ -15,6 +16,7 @@ int main()
             printf(" %d", i);
     }
 
+    // Print all the palindromes
     printf("\nThe Palindromes are:");
     for (int i = a; i <= b; i++)
     {
@@ -22,6 +24,7 @@ int main()
             printf(" %d", i);
     }
 
+    // Print all the prime numbers
     printf("\nThe Prime numbers are:");
     for (int i = a; i <= b; i++)
     {
@@ -29,6 +32,7 @@ int main()
             printf(" %d", i);
     }
 
+    // Print all the strong numbers
     printf("\nThe Strong numbers are:");
     for (int i = a; i <= b; i++)
     {
