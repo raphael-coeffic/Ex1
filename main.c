@@ -33,7 +33,7 @@ int main()
     }
 
     // Print all the strong numbers
-    printf("\nThe Strong numbers are:");
+    printf("\nThe Strong number are:");
     for (int i = a; i <= b; i++)
     {
         if (isStrong(i))
